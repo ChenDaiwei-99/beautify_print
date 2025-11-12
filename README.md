@@ -15,7 +15,7 @@ Beautify Print is a lightweight Python package that makes it easy to beautifully
 
 First, make sure you have the [`rich`](https://pypi.org/project/rich/) library installed:
 ```bash
-pip install rich
+uv add rich
 ```
 
 Then, install this package (from the project directory):
