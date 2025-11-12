@@ -3,27 +3,23 @@
 from .beautify import (
     BeautifyPrinter,
     bprint,
-    bprint_title,
-    bprint_panel,
-    bprint_md,
     beautify_output,
     BeautifyContext,
     enable_beautiful_print,
     disable_beautiful_print,
-    beautifier
+    beautifier,
+    BPrint
 )
 
 __all__ = [
     'BeautifyPrinter',
     'bprint',
-    'bprint_title', 
-    'bprint_panel',
-    'bprint_md',
     'beautify_output',
     'BeautifyContext',
     'enable_beautiful_print',
     'disable_beautiful_print',
-    'beautifier'
+    'beautifier',
+    'BPrint'
 ]
 
-__version__ = '0.1.0'
+__version__ = '0.2.0'
