@@ -23,6 +23,11 @@ Then, install this package (from the project directory):
 uv pip install .
 ```
 
+or install directly from Github:
+```bash
+uv pip install git+https://github.com/ChenDaiwei-99/beautify_print.git
+```
+
 _You can also use `pip install .` if you don't use [uv](https://github.com/astral-sh/uv)._
 
 ## Common Patterns
